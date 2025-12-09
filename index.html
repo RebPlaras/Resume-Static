@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - About Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body class="flex min-h-screen bg-gray-100 font-sans">
+    <!-- Vertical Navigation Bar -->
+    <nav class="w-64 bg-gradient-to-br from-purple-700 to-purple-900 text-white p-6 shadow-lg flex flex-col justify-between fixed h-screen">
+        <div>
+            <img src="profile.jpg" alt="Profile Image" class="w-32 h-32 rounded-full mx-auto mb-4">
+            <div class="text-3xl font-bold mb-8 text-center">Charles Plaras</div>
+            <ul>
+                <li class="mb-4">
+                    <a href="index.html" class="block py-2 px-4 rounded transition duration-200 hover:bg-purple-600 hover:text-white transform hover:scale-105">
+                        <i class="fas fa-user-alt w-6"></i> About Me
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <a href="skills.html" class="block py-2 px-4 rounded transition duration-200 hover:bg-purple-600 hover:text-white transform hover:scale-105">
+                        <i class="fas fa-code w-6"></i> Technical Skills
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <a href="projects.html" class="block py-2 px-4 rounded transition duration-200 hover:bg-purple-600 hover:text-white transform hover:scale-105">
+                        <i class="fas fa-tasks w-6"></i> Projects
+                    </a>
+                </li>
+                <li class="mb-4">
+                    <a href="education.html" class="block py-2 px-4 rounded transition duration-200 hover:bg-purple-600 hover:text-white transform hover:scale-105">
+                        <i class="fas fa-graduation-cap w-6"></i> Education & Certifications
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="flex-1 p-10 ml-64">
+        <section id="about" class="bg-white p-8 rounded-lg shadow-md mb-8">
+            <h2 class="text-4xl font-extrabold text-purple-800 mb-6">
+                <i class="fas fa-user-alt"></i> About Me
+            </h2>
+            <div class="prose max-w-none text-gray-700">
+                <p class="mb-4">
+                    Hello! My name is <span class="font-semibold text-purple-700">Johnreb Charles Plaras</span>. I am an aspiring software engineer with a strong passion for continuous learning, both within and beyond the field of software development.
+                </p>
+                <p class="mb-4">
+                    I enjoy getting better at things, exploring new challenges and improving my skills, whether in programming, learning musical instruments, mastering complex problem-solving tasks or even video games. I always look for growth, and I am always eager to contribute to meaningful projects.
+                </p>
+                <h3 class="text-2xl font-bold text-purple-700 mb-3 mt-6">Strengths & Areas for Growth</h3>
+                <ul class="list-none mb-4 ml-4">
+                <li class="flex items-start mb-2">
+                    <i class="fa-solid fa-arrow-up text-green-500 mr-2 mt-1"></i>
+                    <span><span class="font-medium">Strengths -</span> Quick learner, critical thinker, detail-oriented, and collaborative.</span>
+                </li>
+                <li class="flex items-start mb-2">
+                    <i class="fa-solid fa-arrow-down text-red-500 mr-2 mt-1"></i>
+                    <span><span class="font-medium">Areas for Growth -</span> I don't like it when I don't understand something, makes me anxious.</span>
+                </li>
+                </ul>
+
+                <h3 class="text-2xl font-bold text-purple-700 mb-3 mt-6">
+                    <i class="fas fa-lightbulb"></i> Life Philosophy & Goals
+                </h3>
+                <p class="mb-4">
+                    My personal philosophy is <span class="font-bold italic text-lg text-purple-700">"Learning is my ticket to the world."</span> I strongly believe in continuous growth and enjoying it while doing so.
+                </p>
+                <p class="mb-4">
+                    My professional goal is to establish myself as a skilled software engineer, contributing to innovative projects while building a sustainable career that allows me to care for the many cats I love.
+                </p>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
